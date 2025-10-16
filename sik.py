@@ -7,4 +7,4 @@ y2=float(input("Második y:"))
 
 tavolsag=math.sqrt((x2-x1)**2+(y2-y1)**2)
 
-print(tavolsag)
+print("A 2 pont távolsága: ", tavolsag)
