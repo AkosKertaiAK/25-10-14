@@ -10,4 +10,12 @@ elif (dobás==1 and érték=="írás"):
 else:
     print("Vesztettél")'''
 
-print(random.randint(1,5))
+penz=["fej", "írás"]
+feldob=random.choice(penz)
+tipp=input("fej vagy írás: ")
+
+if(tipp==feldob):
+    print("Eltaláltad!")
+else:
+    print("Nem találtad el!")
+
